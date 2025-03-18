@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: grey;
+}
+
+ul{
+    background-color: seagreen;
+    width: 200px;
+}
+
+ul li{
+    color: white;
+}
+
+#container{
+    background-color: beige;
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    align-items: center; /*alinha verticalmente*/
+    justify-content: space-evenly; /*alinha horizontalmente*/
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
