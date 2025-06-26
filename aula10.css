@@ -27,6 +27,9 @@ body {
     height: 300px;
     background-color: blue;
     border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 758px) {
@@ -35,6 +38,19 @@ body {
         height: 80vh;
         border: 1px solid red;
         background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 10%;
+        height: 80vh;
+        border: none;
+        background-color: none;
         display: flex;
         align-items: center;
         justify-content: center;
